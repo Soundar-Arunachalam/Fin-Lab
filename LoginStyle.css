@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*,*::after,*::before{
+    margin:0;
+    padding:0;
+    
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+    outline:none;
+    border:none;
+    color:#fff;
+    text-decoration:none;
+    transition:0.5s;
+}
+:root{
+    --pri-color:rgb(122,169,187);
+    --sd-color:rgb(24,65,82);
+    --ac-color1:rgb(12,40,55);
+    --ac-color2:rgb(234,82,37);
+    --ac-color3:rgb(125,140,130);
+
+}
+body{
+    overflow:hidden;
+    background:var(--ac-color1);
+}
+.bg{
+    width:430px;
+    height:450px;
+    position:absolute;
+    transform:translate(-50%,-50%);
+    top:50%;
+    left:50%;
+}
+form{
+    height:450px;
+    width:350px;
+    background:rgba(255,255,255,0.13);
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    border-radius:20px;
+    backdrop-filter:blur(10px);
+    border:2px solid rgba(255,255,255,0.1);
+    box-shadow:0 0 40px rgba(7, 6, 17, 0.6) ;
+    padding:50px 35px;
+
+    
+
+}
+form h2{
+    text-align:center;
+    font-size:2rem;
+}
+form p{
+    margin:10px;
+    text-align:center;
+}
+.form-group{
+    margin-top:50px;
+}
+form input{
+    display:block;
+    height:50px;
+    width:100%;
+    background:rgba(255,255,255,0.07);
+    border-radius:5px;
+    padding:0 10px;
+    margin-top:30px;
+    font-size:14px;
+    font-weight:300;
+
+}
+::placeholder{
+    color:#e5e5e5;
+
+}
+button{
+    cursor:pointer;
+    margin-top:30px;
+    width:100%;
+    background:var(--pri-color);
+    color:#080710;
+    padding:15px 0;
+    font-size:18px;
+    font-weight:600;
+    border-radius:5px;
+}
+button:hover{
+    color:#fff;
+    background-color:var(--ac-color2);
+}
+.txt{
+    position:absolute;
+}
+p{
+    font-size:14px;
+}
+span{
+    color:var(--ac-color1);
+    font-weight:700;
+}
+span:hover{
+    text-decoration:underline;
+
+}
+.shape{
+    height:200px;
+    width:200px;
+    position:absolute;
+    border-radius:50%;
+    animation:shapeAnimation 2s infinite alternate;     
+}
+@keyframes shapeAnimation{
+    0%{transform:scale(1);}
+    100%{
+        transform:scale(1.2);
+    }
+}
+.shape:first-child{
+    background:var(--pri-color);
+    left: -50px;
+    top: -50px;
+
+
+}
+.shape:last-child{
+    background:var(--ac-color2);
+    right:-30px;
+    bottom:-50px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
