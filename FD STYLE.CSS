@@ -1,0 +1,90 @@
+body{
+    background-image: url(nature.jpg);
+    background-size: cover;
+}
+
+.center {
+    margin: auto;
+    width: 250px;
+    border: 3px solid whitesmoke;
+    padding: 10px;
+   color: whitesmoke;
+  }
+ .center1{ width: 5%;
+    border: 3px solid rgb(245, 245, 245);
+    padding: 10px;
+    color:whitesmoke;
+    
+  }
+  .center2{
+    width: 15%;
+    border: 3px solid rgb(214, 120, 38);
+    padding: 10px;
+    color:whitesmoke;
+    
+  }
+.box1{
+    height: 20vh;
+    width: 97%;
+    border: 3px solid rgb(245, 245, 245);
+    padding: 10px;
+    color:solid rgb(0, 0, 0);
+}
+.box2{
+    height: 10vh;
+    width: 97%;
+    border: 3px solid whitesmoke;
+    padding: 10px;
+    color:solid rgb(0, 0, 0);
+}
+.left{
+position: absolute;
+right: 40px;
+width: 150px;
+border: 3px solid #13aec9;
+padding: 10px;
+color:whitesmoke;
+}
+.left1{
+    position: absolute;
+    right: 250px;
+    width: 150px;
+    border: 3px solid #13aec9;
+    padding: 10px;
+    color:whitesmoke;
+    }
+.left2{
+position: absolute;
+right: 450px;
+width: 150px;
+border: 3px solid #13aec9;
+padding: 10px;
+color:whitesmoke;
+}
+.left3{
+position: absolute;
+right: 650px;
+width: 150px;
+border: 3px solid #13aec9;
+padding: 10px;
+color:whitesmoke;
+}
+.range{
+    width: 1500px;
+}
+.left4{
+    position: absolute;
+    right: 850px;
+    width: 100px;
+    border: 3px solid #13aec9;
+    padding: 10px;
+    color:whitesmoke;
+    }
+.left5{
+ position: absolute;
+right: 650px;
+width: 100px;
+border: 3px solid #13aec9;
+padding: 10px;
+color:whitesmoke;
+}
