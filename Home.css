@@ -1,0 +1,131 @@
+*{
+    margin:0;
+    font-family:sans-serif;
+    padding :0;
+
+}
+.main{
+    
+    height:100vh;
+    position:relative;
+    width:100%;
+    overflow:hidden;
+    background-image: linear-gradient(to right,#8ecdff,#9c27b0);
+}
+#logo{
+    width:150px;
+}
+nav{
+    display:flex;
+    width:90%;
+    position:sticky;
+    Z-index:1;
+    margin:20px auto;
+    align-items:center;
+
+}
+.logo{
+    flex-basis:20%;
+}
+.logo img{
+    width:150px;
+}
+.nav-links{
+    flex:1;
+    text-align:right;
+}
+.nav-links ul li{
+    list-style:none;
+    display:inline-block;
+    margin:0 20px;
+
+
+}
+.nav-links ul li a{
+    color:#fff;
+    text-decoration:none;
+}
+.scrollstock{
+    background-color:rgb(48, 83, 90);
+    position:fixed;
+    top:150px;
+    left:0;
+    right:0;
+    font-family:roboto,sans-serif;
+    font-size:medium;
+    box-shadow:0px 4px 8px -4px rgba(0,0,0,0.7);
+ 
+
+
+}
+.scrollstock .title{
+    position:absolute;
+    z-index:1;
+    font-weight:bold;
+    font-size:medium;
+    background-color:rgb(116, 200, 25);
+    color:white;
+    display:flex;
+    height:100%;
+    align-items:center;
+    
+    padding:0 24px;
+}
+.scrollstock ul{
+    display:flex;
+    list-style:none;
+    justify-content: space-around;
+    margin:0;
+    animation:scroll 25s infinite linear;
+    
+}
+.scrollstock ul li{
+    white-space:nowrap;
+    color:rgb(38, 225, 38);
+    
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding:10px 24px;
+    cursor:pointer;
+    position:relative;
+}
+.scrollstock ul li::after{
+    position:absolute;
+    content:"";
+    width:1px;
+    height:100%;
+    background:#fff;
+    top:0;
+    right:0;
+
+
+}
+.scrollstock ul li:last-child::after{
+    display:none;
+}
+@keyframes scroll {
+    from{
+        transform:translateX(100%);
+    }
+    to{
+        transform:translateX(-1083px);
+    }
+}
+.flexcontainer{
+    display:flex;
+    justify-content:space-between;
+    width:100%;
+}
+.stockhighlights{
+    width:50%;
+    background-color:black;
+    height:300px;
+
+}
+.newshighlights{
+    width:50px;
+    background-color:black;
+    height:300px;
+}
+html{
+background-image: url("./background.jpg");
+}

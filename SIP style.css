@@ -1,0 +1,60 @@
+
+@keyframes example {
+    0%   {background-color: rgb(104, 23, 23);}
+    10%  {background-color: rgba(20, 128, 58, 0);}
+    20%  {background-color: rgb(66, 66, 222);}
+    30% {background-color: rgba(0,0,0,0);}
+45%{background-color:rgb(218, 53, 243);}
+60%{background-color:rgba(128, 128, 128, 0);}
+80%{background-color:rgb(111, 33, 111);}
+100%{background-color:rgba(96, 63, 19, 0)}
+  }
+.mode{
+    color:pink;
+    background-color:rgb(74, 15, 15);
+    border:2px rgb(3, 58, 58) outset;
+    box-shadow:5px 5px 15px rgba(0,0,0,0.4);
+    border-radius:20px;
+    animation:3s linear 0s infinite running example;
+    padding:15px;
+    margin:10px;
+    
+
+}
+.mode:hover{
+    cursor:pointer;
+    color:aquamarine;
+}
+html{
+    color:rgb(30, 23, 3);
+    background-image:url(./background.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:fixed;
+}
+.range{
+    width:500px;
+ 
+}
+label{
+    margin-right:100px;
+    font-weight:bold;
+    font-size:1.5em;
+}
+.container{
+    height:200px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    border:5px white inset;
+    
+}
+.menu{
+    background:linear-gradient(to right ,rgba(215, 163, 21, 0.299),rgba(241, 185, 30, 0.293));
+    width:900px;
+    height:500px;
+    margin:auto;
+    padding:15px;
+    box-shadow:5px 5px 15px  rgbs(0,0,0,0.3);
+    
+}
