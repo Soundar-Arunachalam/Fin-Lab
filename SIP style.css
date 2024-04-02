@@ -27,7 +27,7 @@
 }
 html{
     color:rgb(30, 23, 3);
-    background-image:url(./background.jpg);
+    background-image:url(./images/background.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     background-position:fixed;
@@ -57,4 +57,9 @@ label{
     padding:15px;
     box-shadow:5px 5px 15px  rgbs(0,0,0,0.3);
     
+}
+.box{
+    position:absolute;
+    left:650px;
+
 }
